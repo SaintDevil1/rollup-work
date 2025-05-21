@@ -1,0 +1,12 @@
+{
+  "name": "rollup-work",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "Ksenia Lipkina",
+  "license": "ISC",
+  "description": ""
+}

@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "start": "rollup -c -w"
   },
   "keywords": [],
   "author": "Ksenia Lipkina",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-image": "^3.0.3",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^3.0.0",
+    "rollup-plugin-styles": "^4.0.0"
+  }
 }
